@@ -1,0 +1,49 @@
+
+/* this is a style page */
+
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 40%;
+    box-shadow: 1px 1px 10px silver;
+    margin-top: 45px;
+    padding:10px;
+}
+input{
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button{
+    border:none;
+    padding:10px;
+    width:40%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1AC15C;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+label{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1F87CF;
+    color: white;
+
+}
+.all-products-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: tomato;
+    font-weight: bold;
+}
